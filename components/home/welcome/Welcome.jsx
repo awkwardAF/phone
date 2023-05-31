@@ -89,7 +89,7 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
           }} />
         <Text style={styles.userName}>Hello!</Text>
         <Text style={styles.welcomeMessage}>Here are some jobs that might be interesting for you</Text>
-        <Text style={styles.welcomeMessageH2}>Last time updated: {new Date().toLocaleString()}</Text>
+        <Text style={styles.welcomeMessageH2}>Last time updated: {lastRefreshDate}</Text>
       </View>
 
       <View style={styles.searchContainer}>
