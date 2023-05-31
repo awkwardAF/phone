@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ],
+    "android": {
+      "permissions": [
+        "ACCESS_BACKGROUND_LOCATION"
+      ]
+    },
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "phone",
+    "slug": "phone"
+  }
+}
